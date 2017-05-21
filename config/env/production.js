@@ -15,8 +15,8 @@ module.exports = {
   db: {
     uri: 'mongodb://heroku_r28pjndt:86qdf195jonl8jpmekch85hi2d@ds149491.mlab.com:49491/heroku_r28pjndt',
     options: {
-      user: '',
-      pass: ''
+      user: 'heroku_r28pjndt',
+      pass: '86qdf195jonl8jpmekch85hi2d'
       /**
         * Uncomment to enable ssl certificate based authentication to mongodb
         * servers. Adjust the settings below for your specific certificate
