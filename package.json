@@ -14,6 +14,7 @@
     "node": ">=6.3.0",
     "npm": ">=3.10.8"
   },
+
   "scripts": {
     "update": "npm update && npm prune && bower install --allow-root && bower prune --allow-root",
     "clean": "rm -rf node_modules/ public/lib/",
@@ -24,6 +25,7 @@
     "gulp": "gulp",
     "lint": "gulp lint",
     "test": "gulp test",
+ "poststart": "npm prune --production",
     "test:server": "gulp test:server",
     "test:server:watch": "gulp test:server:watch",
     "test:client": "gulp test:client",
