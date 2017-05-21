@@ -4,7 +4,7 @@ var defaultEnvConfig = require('./default');
 
 module.exports = {
   db: {
-    uri: 'mongodb://asadullahbeg:apogee12@ds149491.mlab.com:49491/nust-notification',
+    uri: 'mongodb://asad:apogee12@ds149491.mlab.com:49491/nust-notification',
     options: {
       user: '',
       pass: ''

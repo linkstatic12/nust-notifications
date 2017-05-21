@@ -13,10 +13,10 @@ module.exports = {
   // Binding to 127.0.0.1 is safer in production.
   host: process.env.HOST || '0.0.0.0',
   db: {
-    uri: 'mongodb://heroku_r28pjndt:86qdf195jonl8jpmekch85hi2d@ds149491.mlab.com:49491/heroku_r28pjndt',
+    uri: 'mongodb://asad:apogee12@ds149491.mlab.com:49491/nust-notification',
     options: {
-      user: 'heroku_r28pjndt',
-      pass: '86qdf195jonl8jpmekch85hi2d'
+      user: '',
+      pass: ''
       /**
         * Uncomment to enable ssl certificate based authentication to mongodb
         * servers. Adjust the settings below for your specific certificate
