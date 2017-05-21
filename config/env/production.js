@@ -13,7 +13,7 @@ module.exports = {
   // Binding to 127.0.0.1 is safer in production.
   host: process.env.HOST || '0.0.0.0',
   db: {
-    uri: 'mongodb://asadullahbeg:apogee12@ds149491.mlab.com:49491/nust-notification',
+    uri: 'mongodb://heroku_r28pjndt:86qdf195jonl8jpmekch85hi2d@ds149491.mlab.com:49491/heroku_r28pjndt',
     options: {
       user: '',
       pass: ''
