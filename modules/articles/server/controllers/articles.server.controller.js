@@ -50,7 +50,6 @@ exports.update = function (req, res) {
   article.content = req.body.content;
   article.notification_type = req.body.notification_type;
   article.img = req.body.img;
-
   article.save(function (err) {
     if (err) {
       return res.status(422).send({

@@ -25,6 +25,7 @@ var ArticleSchema = new Schema({
     default: '',
     trim: true
   },
+
   notification_type:
   {type: String, enum: ['Student','Employee','All']},
 
