@@ -92,18 +92,18 @@ exports.list = function (req, res) {
   //   }
   // });
 
-    Article.find().sort('-created').exec(function (err, articles) {
-    if (err) {
+  Article.find().sort('-created').exec(function (err, articles) {
+      if (err) {
       return res.status(422).send({
         message: errorHandler.getErrorMessage(err)
       });
     } else {
 
-       delete articles._id;
-       delete articles.__v;
+      delete articles._id;
+      delete articles.__v;
       res.json(articles);
     }
-  });
+    });
 };
 
 /**

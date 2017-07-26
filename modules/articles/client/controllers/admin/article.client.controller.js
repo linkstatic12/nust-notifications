@@ -15,7 +15,7 @@
     vm.form = {};
     vm.remove = remove;
     vm.save = save;
- vm.names = ["Student", "Employee", "All"];
+    vm.names = ['Student', 'Employee', 'All'];
     // Remove existing Article
     function remove() {
       if ($window.confirm('Are you sure you want to delete?')) {

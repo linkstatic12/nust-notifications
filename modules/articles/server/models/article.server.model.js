@@ -26,14 +26,17 @@ var ArticleSchema = new Schema({
     trim: true
   },
 
-  notification_type:
-  {type: String, enum: ['Student','Employee','All']},
+  notification_type: {
+    type: String,
+    enum: ['Student','Employee','All']
+  },
 
-   img: {
+  img: {
     type: String,
     default: '',
     trim: true
   },
+  
   user: {
     type: Schema.ObjectId,
     ref: 'User'
